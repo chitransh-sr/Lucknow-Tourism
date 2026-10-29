@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "vite --port 3001 --host",
     "build": "vite build",
-    "preview": "vite preview --port 3001 --host",
-    "next:dev": "next dev",
-    "next:build": "next build"
+    "preview": "vite preview --port 3001 --host"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -15,17 +13,14 @@
     "gsap": "^3.15.0",
     "leaflet": "^1.9.4",
     "lucide-react": "^1.63.0",
-    "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
-    "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.4.3",
     "puppeteer": "^25.16.0",
     "tailwindcss": "^4",
     "typescript": "^5",
